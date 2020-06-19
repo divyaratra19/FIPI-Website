@@ -861,34 +861,35 @@ Let's live to better the lives of others.</p>
       </div>
     </section>
 	<section class="grid-logos">
-		<div class="row">
-			<div class="col-lg-3" style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);"><img class="img-responsive fit-imageLogo" src="images/logos/aeroclub.png" ></div>
-			<div class="col-lg-3"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/ecell.jpg"></div>
-			<div class="col-lg-3"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/ES.png"></div>
-			<div class="col-lg-3"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/Halliburton-01.png"></div>
-
+		
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-2">
+				  <div class="col-md-8 text-center heading-section ftco-animate">
+					<h2 class="mb-4">Our Sponsors</h2>
+					
+				  </div>
+				</div>
+				<div class="grid">
+			<div><img src="images/logos/aeroclub.png" alt=""></div>
+			<div><img src="images/logos/ecell.png" alt=""></div>
+			<div><img src="images/logos/ES.png" alt=""></div>
+			<div><img src="images/logos/Halliburton-01.png" alt=""></div>
+			<div><img src="images/logos/Hindustan-Petroleum-01.png" alt=""></div>
+			<div><img src="images/logos/infinity.png" alt=""></div>
+			<div><img src="images/logos/jxtnebjiaecswm9pxqc1.png" alt=""></div>
+			<div><img src="images/logos/Life-Insurance-Corporation-of-India-LIC-01.png" alt=""></div>
+			<div><img src="images/logos/logo.png" alt=""></div>
+			<div><img src="images/logos/Oil-and-Natural-Gas-Corporation-ONGC-01.png" alt=""></div>
+			<div><img src="images/logos/OilMax.png" alt=""></div>
+			<div><img src="images/logos/oxfordcap.png" alt=""></div>
+			<div><img src="images/logos/transocean.png" alt=""></div>
 		</div>
-		<div class="row">
-
-			<div class="col-lg-3"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/Hindustan-Petroleum-01.png"></div>
-			<div class="col-lg-3"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/infinity.png"></div>
-			<div class="col-lg-2" style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);"><img class="img-responsive fit-imageLogo" src="images/logos/jxtnebjiaecswm9pxqc1.png" ></div>
-			<div class="col-lg-2"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/Life-Insurance-Corporation-of-India-LIC-01.png"></div>
-		</div>
-		  </div> 
-		  <div class="row">
-			<div class="col-lg-2"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/logo.png"></div>
-			<div class="col-lg-2"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/Oil-and-Natural-Gas-Corporation-ONGC-01.png"></div>
-			<div class="col-lg-2"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/OilMax.png"></div>
-			<div class="col-lg-2"><img style="box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);" class="img-responsive fit-imageLogo" src="images/logos/oxfordcap.png"></div>
-
-		  </div> 
-		  
+		  </div>
 	  </section>
 	
 
 				
-    <footer class="ftco-footer ftco-bg-dark ftco-section" id="contact">
+    <footer class="ftco-footer ftco-bg-dark ftco-section" id="contact" style="margin-top: 20px;">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4">
@@ -945,7 +946,20 @@ Let's live to better the lives of others.</p>
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
+  <script>
+	window.onscroll = function() {myFunction()};
+	
+	var navbar = document.getElementById("ftco-navbar");
+	var sticky = navbar.offsetTop;
+	
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	  } else {
+		navbar.classList.remove("sticky");
+	  }
+	}
+	</script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
