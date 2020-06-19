@@ -3,6 +3,7 @@
  	easing: 'slide'
  });
 
+ 
 (function($) {
 
 	"use strict";
@@ -236,7 +237,17 @@
       duration: 300 // don't foget to change the duration also in CSS
     }
   });
-
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
