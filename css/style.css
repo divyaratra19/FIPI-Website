@@ -9425,7 +9425,15 @@ textarea.form-control {
     background: -ms-linear-gradient(45deg, #202020 0%, #fd6100 100%);
     background: linear-gradient(45deg, #202020 0%, #fd6100 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#fd6100', GradientType=1 ); }
-
+    .fit-imageLogo{
+      
+      object-fit: contain;
+      height: 100px;/* only if you want fixed height */
+      padding:16px;
+      }
+      .grid-logos{
+        height: 200px;
+      }
 .ftco-counter {
   overflow-x: hidden;
   position: relative; }
