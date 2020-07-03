@@ -116,8 +116,8 @@ li{
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html"><img src="images/upeslogo.png" height="60"></img></a>
-					<a class="navbar-brand" href="index.html"><img src="images/fipi (1).png" height="60"></img></a>
+    				<a class="navbar-brand" href="index.php"><img src="images/upeslogo.png" height="60"></img></a>
+					<a class="navbar-brand" href="index.php"><img src="images/fipi (1).png" height="60"></img></a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
@@ -155,13 +155,13 @@ li{
 	    
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="index.html#section-counter" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="index.html#events" class="nav-link">Events</a></li>
-	        	<li class="nav-item"><a href="index.html#teams" class="nav-link">Committees</a></li>
-                <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-	          <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="index.php" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item"><a href="index.php#section-counter" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="index.php#events" class="nav-link">Events</a></li>
+	        	<li class="nav-item"><a href="index.php#teams" class="nav-link">Committees</a></li>
+                <li class="nav-item"><a href="team.php" class="nav-link">Our Team</a></li>
+                <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+	          <li class="nav-item"><a href="index.php#contact" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -368,13 +368,13 @@ li{
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2" style="text-align:left;">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="index.html#section-counter"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="index.html#events"><span class="ion-ios-arrow-round-forward mr-2"></span>Events</a></li>
-				<li><a href="index.html#teams"><span class="ion-ios-arrow-round-forward mr-2"></span>Committees</a></li>
-                <li><a href="team.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Our Team</a></li>
+                <li><a href="index.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="index.php#section-counter"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="index.php#events"><span class="ion-ios-arrow-round-forward mr-2"></span>Events</a></li>
+				<li><a href="index.php#teams"><span class="ion-ios-arrow-round-forward mr-2"></span>Committees</a></li>
+                <li><a href="team.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Our Team</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Gallery</a></li>
-                <li><a href="index.html#contact"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="index.php#contact"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
