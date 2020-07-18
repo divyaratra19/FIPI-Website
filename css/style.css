@@ -9464,7 +9464,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 1199.98px) {
     .ftco-counter {
-      background-position: top center !important; } }
+      background-position: center center !important; } }
   .ftco-counter .img-video {
     width: 100%;
     display: block; }
