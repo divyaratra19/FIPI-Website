@@ -41,6 +41,8 @@
   box-sizing: border-box; }
 
 html {
+  height:100% !important;
+  width:100% !important;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
